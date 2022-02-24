@@ -1,0 +1,2 @@
+ssh-keygen
+cat /home/azp/.ssh/id_rsa.pub
