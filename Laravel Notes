@@ -1,3 +1,10 @@
 #  Php artisan make:controller 
 
 php artisan make:controller NameController --model=Name --api --requesrs
+
+
+
+////Resource Page
+
+https://tinypng.com/
+
