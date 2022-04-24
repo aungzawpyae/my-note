@@ -63,3 +63,23 @@ const routes = [
   },
   {
     path: '/:pathMatch(.*)*',
+    
+    
+ /**
+ *$emit()
+ **/
+   save () {
+      const post = {
+        id: postId,
+        text: this.text,
+        publishedAt: Math.floor(Date.now() / 1000),
+        '
+      }
+      this.$emit('save', { post }) // access under eventData.post //child componentကနေ့က parent componet ကို data ပို့
+       <post-editor @save="addPost"/> ///save ကို ပို့လိုက်တဲ့ နာမည် addPost ကို လက်ခံမယ် function 
+   /**
+   *Date Format 
+   **/
+   
+   https://day.js.org/
+      
